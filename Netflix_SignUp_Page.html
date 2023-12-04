@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix SignUp!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body class="bg-dark">
+    <div class="bgImage-Container">
+      <div class="shade1">
+        <header>
+          <div>
+            <h1>NETFLIX</h1>
+          </div>
+        </header>
+
+        <!-- main starts here -->
+
+        <main class="d-flex justify-content-center mainContainer">
+          <div>
+            <div class="formContainer rounded-2 w-75">
+              <form class="p-5">
+                <h2 class="mb-4 text-white">Sign Up</h2>
+                <div>
+                  <input
+                    class="p-2 text-white w-100 bg-dark rounded-3 mb-4"
+                    type="text"
+                    placeholder="Email or Mobile Number"
+                  />
+                </div>
+                <div>
+                  <input
+                    class="p-2 w-100 text-white bg-dark rounded-3 mb-4"
+                    type="password"
+                    placeholder="Enter Password"
+                  />
+                </div>
+                <div>
+                  <button
+                    style="background-color: red"
+                    class="btn btn-danger w-100 p-2 mb-3"
+                  >
+                    Sign In
+                  </button>
+                </div>
+
+                <div class="mb-5">
+                  <input type="checkbox" name="remember" />
+                  <label for="remember">Remember Me?</label>
+                  <a class="float-end helpBox" href="NeedHelp.html"
+                    >Need help?</a
+                  >
+                </div>
+
+                <div class="pt-2">
+                  <p>
+                    New to Netflix?
+                    <a href="#" class="signUp text-white">Sign Up Now!</a>
+                  </p>
+                </div>
+
+                <p class="mb-4">
+                  This page is protected by Google reCAPTCHA to ensure you're
+                  not a bot.
+                  <a id="learnMoreBtn" onclick="OpenClick()" class="learn"
+                    >Learn More!</a
+                  >
+                </p>
+
+                <p hidden id="learnMoreContent" class="learnMore">
+                  The information collected by Google reCAPTCHA is subject to
+                  the Google Privacy Policy and Terms of Service, and is used
+                  for providing, maintaining, and improving the reCAPTCHA
+                  service and for general security purposes (it is not used for
+                  personalised advertising by Google).
+                </p>
+              </form>
+            </div>
+          </div>
+        </main>
+
+        <footer class="footerItems">
+          <div class="footer1">
+            <p>
+              Questions? Call
+              <a href="#" class="contactNum">000-800-919-1694</a>
+            </p>
+          </div>
+          <div class="footerLinks">
+            <div>
+              <div><a href="#">FAQ</a></div>
+              <div><a href="#">Cookie Preferences</a></div>
+            </div>
+
+            <div>
+              <div><a href="#">Help Center</a></div>
+              <div><a href="#">Corporate Information</a></div>
+            </div>
+
+            <div>
+              <a href="#">Terms of Use</a>
+            </div>
+
+            <div><a href="#">Privacy</a></div>
+          </div>
+
+          <div class="dropdown">
+            <button
+              class="btn btn-dark dropdown-toggle"
+              data-bs-toggle="dropdown"
+            >
+              <span class="bi bi-translate"></span> English
+            </button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="#" class="dropdown-link"
+                  ><span class="dropdown-text">English</span></a
+                >
+              </li>
+              <li class="dropdown-item">
+                <a href="#" class="dropdown-link"
+                  ><span class="dropdown-text">Hindi</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
